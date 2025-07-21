@@ -1,0 +1,9 @@
+GET http://localhost:8080/api/books/1
+
+###
+
+GET http://localhost:8080/api/publishers/1
+
+###
+
+GET http://localhost:8080/api/authors/1

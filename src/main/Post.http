@@ -1,0 +1,32 @@
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "New Book Title",
+  "author": "Author Name",
+  "publisher": "Publisher Name",
+  "type": "Fiction",
+  "isbn": "123-4567890123"
+}
+
+###
+
+POST http://localhost:8080/api/publishers
+Content-Type: application/json
+
+{
+  "name": "New Publisher Name",
+  "city": "Publisher City",
+  "zipCode": "12345",
+  "address": "Publisher Address"
+}
+
+###
+
+POST http://localhost:8080/api/authors
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe"
+}

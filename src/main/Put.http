@@ -1,0 +1,22 @@
+PUT http://localhost:8080/api/books/1
+Content-Type: application/json
+
+{
+  "title": "New Book Title Updated",
+  "author": "Author Name",
+  "publisher": "Publisher Name",
+  "type": "Fiction",
+  "isbn": "123-4567890123"
+}
+
+###
+
+PUT http://localhost:8080/api/publishers/1
+Content-Type: application/json
+
+{
+  "name": "Updated Publisher Name",
+  "city": "Updated Publisher City",
+  "zipCode": "54321",
+  "address": "Updated Publisher Address"
+}
