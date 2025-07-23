@@ -3,3 +3,27 @@ GET http://localhost:8080/api/books
 ###
 
 GET http://localhost:8080/api/publishers
+
+###
+
+GET http://localhost:8080/books
+
+###
+
+GET http://localhost:8080/math/factorial?n=5
+
+###
+
+GET http://localhost:8080/math/add?a=3&b=7
+
+###
+
+GET http://localhost:8080/math/subtract?a=10&b=4
+
+###
+
+GET http://localhost:8080/math/multiply?a=5&b=6
+
+###
+
+GET http://localhost:8080/math/divide?a=12&b=4

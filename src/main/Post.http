@@ -30,3 +30,16 @@ Content-Type: application/json
   "firstName": "John",
   "lastName": "Doe"
 }
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "New Book Title",
+  "author": "Author Name",
+  "publisher": "Publisher Name",
+  "type": "Fiction",
+  "isbn": "123-4567890123"
+}

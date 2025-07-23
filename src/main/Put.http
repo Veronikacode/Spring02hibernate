@@ -20,3 +20,16 @@ Content-Type: application/json
   "zipCode": "54321",
   "address": "Updated Publisher Address"
 }
+
+###
+
+PUT http://localhost:8080/books/1
+Content-Type: application/json
+
+{
+  "title": "New Book Title Updated",
+  "author": "Author Name",
+  "publisher": "Publisher Name",
+  "type": "Fiction",
+  "isbn": "123-4567890123"
+}
